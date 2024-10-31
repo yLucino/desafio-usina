@@ -48,3 +48,5 @@ Este é um desafio de desenvolvimento onde você criará uma **Biblioteca de Fil
    ```bash
    git clone https://github.com/hallslima/desafio-usina.git
    cd desafio-usina
+
+2. Para entregar o desafio, mande um pull request com uma branch no seu nome.
