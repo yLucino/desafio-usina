@@ -5,6 +5,7 @@ import { UserModel } from "../../../app/shared/models/user";
 import { getUsers } from "../../services/forRecommendedPage/recommended.service";
 import { getMovies } from "../../services/forHomePage/home.service";
 import { MoviesModel } from "../../../app/shared/models/movies";
+import { Button } from "@mui/material";
 
 const RecommendedPage = () => {
   const { username } = useParams();
@@ -95,7 +96,19 @@ const RecommendedPage = () => {
               </div>
             </Link>
           ))}
+          {recommendedMovies?.length === 0 ? (
+            <div className="text-center">
+              <p>No momento não possuo recomendações para fazer!</p>
+              <p className="mb-5">Por favor avalie alguns filmes e depois volte aqui :D</p>
+              <hr className="border-gray-400 w-3/4 m-auto mb-5"/>
 
+              <Link to={`/home/${username}`}>
+                <Button variant="outlined">
+                  Navegue pela Biblioteca e Avalie
+                </Button>
+              </Link>
+            </div>
+          ) : ''}
         </div>
       </div>
     </>
