@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: tomato;
+  border: 2px solid #ff6347;
+  border-radius: 5px;
+}
+
+.moviesSection {
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(30 41 59);
+  }
+  
+  .movies {
+    ::-webkit-scrollbar {
+      width: 10px;
+      background: white;
+    }
+  }
+}
