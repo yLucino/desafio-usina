@@ -23,7 +23,7 @@ const Movies = () => {
   const [ valeuYearReleaseInput, setValeuYearReleaseInput ] = useState('');
   const [ valeuDurationInput, setValeuDurationInput ] = useState('');
   const [ valeuImageURLInput, setValeuImageURLInput ] = useState('');
-  const [ valeuEvaluationNoteInput, setValeuEvaluationNoteInput ] = useState<string | undefined>('0, ');
+  const [ valeuEvaluationNoteInput, setValeuEvaluationNoteInput ] = useState<string | undefined>('');
   
   const [ movies, setMovies ] = useState<MoviesModel[]>([]);
   const [ seletectedMovie, setSeletectedMovie ] = useState<MoviesModel | null>(null);
@@ -161,7 +161,7 @@ const Movies = () => {
     setValeuGenderInput('');
     setValeuYearReleaseInput('');
     setValeuDurationInput('');
-    setValeuEvaluationNoteInput('0 ');
+    setValeuEvaluationNoteInput('');
     setValeuImageURLInput('');
   }
 
