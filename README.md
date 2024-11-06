@@ -1,52 +1,65 @@
-# 🎥 Biblioteca de Filmes com Recomendações e Avaliações
+# Desafio Usina FullStack | Movie Library
 
-## Descrição do Projeto
+Layout Responsivo para Desktop | Laptop | Tablet | Mobile
 
-Este é um desafio de desenvolvimento onde você criará uma **Biblioteca de Filmes**. O objetivo é que usuários possam adicionar filmes que já assistiram, avaliar esses filmes e receber recomendações baseadas nas avaliações de outros usuários. O projeto combina funcionalidades de CRUD com recomendações, sendo ideal para demonstrar habilidades em back-end, front-end e banco de dados.
+## Índice
 
-## Funcionalidades
+- [Instalação](#instalação)
+- [Autor](#autor)
+- [Tecnologias](#tecnologias)
+- [Referências](#referências)
+- [Agradecimentos](#agradecimentos)
 
-- **CRUD de Filmes**: Adicionar, editar, listar e remover filmes na biblioteca.
-- **Avaliações de Filmes**: Usuários podem avaliar filmes de 1 a 5 estrelas.
-- **Recomendações**: Recomendações baseadas em avaliações semelhantes feitas por outros usuários.
-- **Autenticação de Usuários**: Usuários devem se cadastrar e fazer login para acessar e avaliar os filmes.
-- **Pesquisa e Filtragem**: Usuários podem pesquisar por filmes específicos e filtrar por gênero, ano, etc.
+## Instalação
 
-## Tecnologias Recomendadas
+Instruções para inicializar e configurar o projeto.
 
-- **Backend**: Node.js com Express
-- **Banco de Dados**: PostgreSQL
-- **Frontend**: React ou Angular
-- **Autenticação**: JWT para segurança
+```sh
+# Navegue até o diretório do projeto
+cd frontend
 
-## Requisitos
+# Instale as dependências
+npm install
+npm run dev
 
-1. **Cadastro e Login de Usuários** com autenticação por JWT.
-2. **CRUD de Filmes** com os campos:
-   - Título do filme
-   - Descrição
-   - Gênero
-   - Ano de lançamento
-   - Duração
-3. **CRUD de Avaliações** com os campos:
-   - Nota de 1 a 5 estrelas
-   - Comentário (opcional)
-4. **Recomendações**: Listar filmes que foram bem avaliados por outros usuários com perfis de avaliação semelhantes.
-5. **Pesquisa e Filtragem**: Filtros para gêneros, ano e outros critérios.
+# Navegue até o diretório do projeto
+cd backend
 
-## Critérios de Avaliação
+# Instale as dependências
+npm install
+npm start
+```
 
-- **Funcionalidade Completa**: Todas as funcionalidades devem estar presentes e funcionando conforme descrito.
-- **Organização do Código**: Separação clara entre camadas (controllers, models, serviços).
-- **Qualidade do Código**: Código limpo, bem documentado e fácil de entender.
-- **Documentação**: O `README.md` deve incluir uma explicação clara de como rodar o projeto.
-- **Usabilidade e Design**: Interface intuitiva e agradável para o usuário.
+## Autor
 
-## Instruções para Configuração
+Luciano Chiodini - yLucino
+<div> 
+  <a href
+="https://www.instagram.com/luci_ano_chi/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href = "mailto:chiodiniluciano@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/luciano-chiodini-6a35092b3/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/hallslima/desafio-usina.git
-   cd desafio-usina
+## Tecnologias
 
-2. Para entregar o desafio, mande um pull request com uma branch no seu nome.
+<div style="display: inline_block"><br>
+  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="NodeJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Express" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
+  <img align="center" alt="MySQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+	<img align="center" alt="Tailwindcss" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
+	<img align="center" alt="MaterialUI" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg">
+</div>
+
+## Referências
+
+<a href="https://github.com/hallslima/desafio-usina">Hallslima | Desafio Usina</a>
+<br>
+
+## Agradecimentos
+
+Obrigado por visitar meu repositório! 🙂🫡
